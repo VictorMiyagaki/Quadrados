@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa {
+    width: 500px;
+    height: 500px;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    float: left;
+    transition: 3s;
+}
+
+.square:hover {
+    background-color: white;
+    transition: 0.1s;
+
+}
+
+.end {
+    clear: left;
+}
